@@ -1,4 +1,26 @@
 h1 {
-  color: red;
+  color: black;
+  text-align: center;
+
+
+}
+
+
+
+.container {
+  height: 200px;
+  border: red;
+
+}
+
+
+.panda{
   background-color: yellow;
+  height: 200px;
+}
+
+.panda a {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
 }
