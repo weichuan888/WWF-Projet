@@ -6,10 +6,10 @@ h1 {
 }
 
 
-
 .container {
   height: 200px;
   border: red;
+  position: relative;
 
 }
 
@@ -23,4 +23,136 @@ h1 {
   width: 200px;
   margin: 0 auto;
   display: block;
+}
+.A{
+  background-color: #FF8229;
+  color: white;
+  border: 2px solid black;
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 30px;
+  border-radius: 20px;
+  font-family: helvetica;
+
+}
+
+.D {
+  background-color: #28FF60;
+  color: white;
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 30px;
+  border-radius: 20px;
+  font-family: helvetica;
+  border: 2px solid black;
+}
+.Définition{
+position: relative;
+height: 200px;
+}
+.bambou img{
+position: absolute;
+right: 0;
+border: 2px dashed white;
+float: right;
+}
+h2{
+  color: green;
+  font-size: 20px;
+  font-family: helvetica;
+  text-align: center;
+  margin-left: 120px;
+  width: 200px;
+
+}
+span{
+  font-size: 30px;
+  color: black;
+  font-family: helvetica;
+}
+ul{
+  text-align: left;
+  float: left;
+}
+
+li {
+  font-size: 18px;
+  font-family: helvetica;
+  color: green;
+}
+.cercle {
+  position: relative;
+  background-color: blue;
+  height: 200px;
+
+}
+.Rubrique1 {
+  float: left;
+  top: 20px;
+  left: 30px;
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+
+}
+.Rubrique2 {
+  float: left;
+  top: 20px;
+  left: 60px;
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.Rubrique3 {
+  float: left;
+  top: 20px;
+  left: 90px;
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.Rubrique4 {
+  float: left;
+  top: 20px;
+  left: 120px;
+  font-size: 18px;
+  font-family: helvetica;
+  color: white;
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+}
 }
