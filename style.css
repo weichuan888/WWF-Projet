@@ -3,7 +3,6 @@ h1 {
   text-align: center;
   background-color: green;
 
-
 }
 
 
@@ -11,6 +10,7 @@ h1 {
   height: 200px;
   border: red;
   position: relative;
+
 
 }
 
@@ -82,9 +82,8 @@ h2{
   text-align: center;
   margin-left: 150px;
   width: 200px;
-  position: absolute;
-  top: 10px;
-  left: 200px;
+
+
 
 
 
@@ -96,9 +95,7 @@ span{
 }
 ul{
   text-align: left;
-  position: absolute;
-  top: 70px;
-  left: 100px;
+  float: left;
 
 }
 
@@ -120,6 +117,7 @@ header{
   background-size: cover;
   width: 100%;
   height: 100vh;
+  margin: 0 auto;
 }
 
 body {
@@ -162,13 +160,37 @@ body {
   box-shadow: 10px 10px 5px #888888;
   line-height: 10px;
 }
-.nature img {
+
+
+.video {
   width: 100%;
-  height: auto;
-  position: relative;
+  height: 350px;
 
 }
+.youtube{
+  margin-left: 30px;
+  float: left;
+}
 
+.symbol {
+  margin-right: 40px;
+  text-align: justify;
+  width: 33%;
+  float: left;
+  margin-left: 150px;
+  margin-top: 50;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+
+}
+h3 {
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: bold;
+  color: black;
+
+}
 .carre{
   height: 150px;
   width: 100%;
@@ -181,7 +203,7 @@ body {
   font-family: helvetica;
   color: black;
   background-color: #3790FF;
-  border: 2px solid green;
+  border: 3px solid black;
   border-radius: 50px;
   width: 15%;
   float: left;
@@ -193,6 +215,10 @@ body {
   box-sizing: border-box;
   text-align: center;
 
+}
 
-
+.citation{
+  margin-right: 20px;
+  text-align: justify;
+  float:right;
 }
