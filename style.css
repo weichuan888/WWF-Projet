@@ -1,6 +1,7 @@
 h1 {
   color: black;
   text-align: center;
+  background-color: green;
 
 
 }
@@ -15,8 +16,9 @@ h1 {
 
 
 .panda{
-  background-color: yellow;
+
   height: 200px;
+
 }
 
 .panda a {
@@ -32,7 +34,7 @@ h1 {
   height: 80px;
   position: absolute;
   top: 50px;
-  left: 200px;
+  left: 300px;
   padding: 20px;
   box-sizing: border-box;
   font-size: 30px;
@@ -48,31 +50,43 @@ h1 {
   height: 80px;
   position: absolute;
   top: 50px;
-  right: 200px;
-  padding: 20px;
+  right: 300px;
+  padding-top: 18px;
+  padding-left: 15px;
   box-sizing: border-box;
   font-size: 30px;
   border-radius: 20px;
   font-family: helvetica;
   border: 2px solid black;
+
 }
+
+
+
 .Définition{
-position: relative;
-height: 200px;
-}
+  position: relative;
+  height: 240px;
+  }
+
 .bambou img{
-position: absolute;
-right: 0;
-border: 2px dashed white;
-float: right;
+  position: absolute;;
+  right: 0;
+  border: 1px solid green;
+  border-radius: 50px;
+
 }
 h2{
-  color: green;
+  color: white;
   font-size: 20px;
   font-family: helvetica;
   text-align: center;
-  margin-left: 120px;
+  margin-left: 150px;
   width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 200px;
+
+
 
 }
 span{
@@ -82,77 +96,103 @@ span{
 }
 ul{
   text-align: left;
-  float: left;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+
 }
 
 li {
   font-size: 18px;
   font-family: helvetica;
-  color: green;
+  color: white;
 }
+.black-bold{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+
+
+header{
+  background: url("https://fr.best-wallpaper.net/wallpaper/1680x1050/1308/Nature-landscape-mountains-river-trees-rocks_1680x1050.jpg") center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-color: green;
+}
+
+
+
+
 .cercle {
-  position: relative;
-  background-color: blue;
+
+
   height: 200px;
 
-}
-.Rubrique1 {
-  float: left;
-  top: 20px;
-  left: 30px;
-  font-size: 18px;
-  font-family: helvetica;
-  color: white;
-  border: 3px solid black;
-  border-radius: 100px;
-  width: 200px;
-  height: 50px;
-  padding: 15px;
-  box-sizing: border-box;
+  width: 100%;
+
 
 }
-.Rubrique2 {
-  float: left;
-  top: 20px;
-  left: 60px;
-  font-size: 18px;
+
+
+
+
+.Rubrique {
+
+  font-size: 25px;
   font-family: helvetica;
   color: white;
   border: 3px solid black;
-  border-radius: 100px;
-  width: 200px;
+  width: 20%;
   height: 50px;
   padding: 15px;
   box-sizing: border-box;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+  text-align: center;
+  background-color: #36E84B;
+  box-shadow: 10px 10px 5px #888888;
+  line-height: 10px;
+}
+.nature img {
+  width: 100%;
+  height: auto;
+  position: relative;
+
 }
 
-.Rubrique3 {
-  float: left;
-  top: 20px;
-  left: 90px;
-  font-size: 18px;
-  font-family: helvetica;
-  color: white;
-  border: 3px solid black;
-  border-radius: 100px;
-  width: 200px;
-  height: 50px;
-  padding: 15px;
-  box-sizing: border-box;
+.carre{
+  height: 150px;
+  width: 100%;
+
+
 }
 
-.Rubrique4 {
-  float: left;
-  top: 20px;
-  left: 120px;
-  font-size: 18px;
+.Point {
+  font-size: 15px;
   font-family: helvetica;
-  color: white;
-  border: 3px solid black;
-  border-radius: 100px;
-  width: 200px;
-  height: 50px;
+  color: black;
+  background-color: #3790FF;
+  border: 2px solid green;
+  border-radius: 50px;
+  width: 15%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   padding: 15px;
   box-sizing: border-box;
-}
+  text-align: center;
+
+
+
 }
